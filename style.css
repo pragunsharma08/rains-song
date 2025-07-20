@@ -1,0 +1,26 @@
+.preview {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+.preview img {
+  display: block;
+  width: 100%;
+}
+.preview video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+.preview:hover video {
+  display: block;
+}
+.caption {
+  font-family: serif;
+  text-align: center;
+  margin-top: 1rem;
+  color: #555;
+}
