@@ -1,12 +1,26 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+
 .preview {
   position: relative;
-  width: 100%;
-  max-width: 600px;
+  display: inline-block;
+  width: 90%;
+  max-width: 700px;
+  margin-bottom: 1rem;
 }
+
 .preview img {
   display: block;
   width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
+
 .preview video {
   position: absolute;
   top: 0;
@@ -14,13 +28,15 @@
   width: 100%;
   height: auto;
   display: none;
+  border-radius: 8px;
 }
+
 .preview:hover video {
   display: block;
 }
+
 .caption {
-  font-family: serif;
-  text-align: center;
-  margin-top: 1rem;
   color: #555;
+  font-size: 1.2rem;
+  margin-top: 1rem;
 }
